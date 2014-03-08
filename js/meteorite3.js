@@ -65,7 +65,7 @@ window.requestAnimFrame = (function(){
 			};
 })();
 
-// set a time loop to update the animation frame every few seconds
+// set a time loop to update the animation frame every few seconds and creates the changing lightening effects
 function loop()
 {
 	context.globalAlpha = 0.4;
@@ -89,7 +89,7 @@ function loop()
 
 	//draw flashing text in the canvas
 	context.font = "30px Arial";
-  //Creates the 
+        //creates the changing occurence of the lightening
 	context.fill();
 
 }
